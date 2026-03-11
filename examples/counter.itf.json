@@ -1,0 +1,24 @@
+{
+  "#meta": {
+    "source": "example-counter.itf.json",
+    "description": "Simple counter example"
+  },
+  "vars": ["counter", "status"],
+  "states": [
+    {
+      "#meta": { "index": 0 },
+      "counter": { "#bigint": "0" },
+      "status": "idle"
+    },
+    {
+      "#meta": { "index": 1 },
+      "counter": { "#bigint": "1" },
+      "status": "active"
+    },
+    {
+      "#meta": { "index": 2 },
+      "counter": { "#bigint": "2" },
+      "status": "active"
+    }
+  ]
+}
