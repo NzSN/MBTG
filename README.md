@@ -43,7 +43,7 @@ and Apalache ∗](https://conf.tlapl.us/2020/09-Kuprianov_and_Konnov-Model-based
 ┌─────────────────────────────────────────────────────────────────┐
 │                        Data Flow                                │
 │                                                                 │
-│  ITF JSON ──▶ Trace ──▶ [State] ──▶ TypeScript Test Code        │
+│  ITF JSON --> Trace --> [State] --> TypeScript Test Code        │
 │                                                                 │
 │  Input:                    Internal:          Output:           │
 │  {                         Trace {            describe('...') { │
