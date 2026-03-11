@@ -68,7 +68,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.22.0.0
+    build-depends:    base ^>=4.21.0.0
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -91,7 +91,7 @@ executable MBTG
 
     -- Other library packages from which modules are imported.
     build-depends:
-        base ^>=4.22.0.0,
+        base ^>=4.21.0.0,
         MBTG
 
     -- Directories containing source files.
@@ -124,5 +124,5 @@ test-suite MBTG-test
 
     -- Test dependencies.
     build-depends:
-        base ^>=4.22.0.0,
+        base ^>=4.21.0.0,
         MBTG
