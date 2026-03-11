@@ -56,13 +56,13 @@ and Apalache ∗](https://conf.tlapl.us/2020/09-Kuprianov_and_Konnov-Model-based
 
 ## Components
 
-| Component | File | Responsibility |
-|-----------|------|----------------|
-| **CLI** | `app/Main.hs` | Command-line interface, option parsing |
-| **API** | `src/MBTG.hs` | High-level entry point, orchestrates pipeline |
-| **Types** | `src/MBTG/Types.hs` | ITF data types (Trace, State, Expr) |
-| **Parser** | `src/MBTG/Parser/ITF.hs` | ITF JSON → Haskell types |
-| **Generator** | `src/MBTG/Generator/TypeScript.hs` | Haskell types → TypeScript test code |
+| Component   | File                              | Responsibility                             |
+|-------------|-----------------------------------|--------------------------------------------|
+| **CLI**     | `app/Main.hs`                     | Command-line interface, option parsing     |
+| **API**     | `src/MBTG.hs`                     | High-level entry point, orchestrates pipeline |
+| **Types**   | `src/MBTG/Types.hs`               | ITF data types (Trace, State, Expr)        |
+| **Parser**  | `src/MBTG/Parser/ITF.hs`          | ITF JSON → Haskell types                   |
+| **Generator** | `src/MBTG/Generator/TypeScript.hs` | Haskell types → TypeScript test code     |
 
 ## Extensibility
 
